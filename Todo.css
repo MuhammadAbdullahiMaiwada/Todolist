@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2{
+    color: blue;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+#add{
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add:hover{
+    background-color: red;
+}
